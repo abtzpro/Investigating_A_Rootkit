@@ -1,0 +1,20 @@
+Suspicious boot file detected: C:\Windows\System32\ntoskrnl.exe
+Traceback (most recent call last):
+  File "C:\Users\Robo1\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 825, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 5] Access is denied: 'C:\\Windows\\System32\\ntoskrnl.exe' -> 'C:\\Quarantine\\ntoskrnl.exe'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Robo1\Desktop\Misc-Scripts-main\BootKitScanner.py", line 65, in <module>
+    main()
+  File "C:\Users\Robo1\Desktop\Misc-Scripts-main\BootKitScanner.py", line 62, in main
+    check_boot_files()
+  File "C:\Users\Robo1\Desktop\Misc-Scripts-main\BootKitScanner.py", line 58, in check_boot_files
+    quarantine_file(file_path)
+  File "C:\Users\Robo1\Desktop\Misc-Scripts-main\BootKitScanner.py", line 35, in quarantine_file
+    shutil.move(file_path, os.path.join(quarantine_folder, os.path.basename(file_path)))
+  File "C:\Users\Robo1\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 846, in move
+    os.unlink(src)
+PermissionError: [WinError 5] Access is denied: 'C:\\Windows\\System32\\ntoskrnl.exe'

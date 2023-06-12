@@ -1,0 +1,83 @@
+ApplyAfterImage attack chain
+
+the script:
+
+1. The script is designed to run on Windows computers.
+2. It starts by finding the location of the Windows folder (usually C:\Windows) and assigns it to a variable called `%TARGETOS%`.
+3. It also finds the drive where Windows is installed (usually C:) and assigns it to a variable called `%TARGETOSDRIVE%`.
+4. The script attempts to delete a folder called `Windows.old\Users`, which contains user profiles from a previous Windows installation.
+5. If the folder still exists after the first deletion attempt, the script tries to delete it three more times.
+6. If the folder is still there after all the attempts, the script restarts the computer to signal that something went wrong.
+7. After handling the deletion, the script checks for certain files in a folder called `%TARGETOSDRIVE%\Recovery\AutoApply`.
+8. If specific files are found, they are copied to certain locations in the Windows system.
+9. The script also creates a folder called `Windows\OEM` if it doesn't already exist.
+10. More files are checked and copied if they are found in the `%TARGETOSDRIVE%\Recovery\AutoApply` folder.
+11. The script modifies a registry setting related to the taskbar layout if a specific file is present.
+12. Finally, the script exits, indicating that it has completed its tasks successfully.
+
+In simpler terms, the script deletes a folder from a previous Windows installation, copies certain files to specific locations in the Windows system, and modifies some settings related to the appearance of the taskbar.
+
+_______________________________________________________________________________________________________________________________________________________________________________
+
+The XML snippet seems to be part of a larger XML configuration file. In this specific snippet, it represents a `<Reset>` element with a nested `<Run>` element inside.
+
+breakdown of the XML snippet:
+
+- The `<Reset>` element is the root element, which encapsulates the entire content.
+- Within the `<Reset>` element, there is a `<Run>` element that specifies a phase called "FactoryReset_AfterImageApply."
+- Inside the `<Run>` element, there are two child elements:
+  - `<Path>`: This element specifies the path to a file named "AfterImageApply_BDB0C1E8-6951-46C4-AB7F-C07B29F462FD.cmd". The path could be either a relative or an absolute path depending on the context of the XML.
+  - `<Duration>`: This element indicates a duration of "2," which might represent a time frame or a specific interval related to the phase being executed.
+
+_______________________________________________________________________________________________________________________________________________________________________________
+
+
+The XML snippet represents a configuration for Windows Recovery Environment (WinRE). WinRE is a feature in Windows that provides diagnostic and recovery tools to troubleshoot and repair system issues.
+
+breakdown of the XML snippet:
+
+- The root element is `<WindowsRE>`, indicating the WinRE configuration.
+- Inside the `<WindowsRE>` element, there are multiple child elements that define various properties and states related to WinRE:
+  - `<WinreBCD>`: Specifies the identifier (ID) of the WinRE Boot Configuration Data (BCD).
+  - `<WinreLocation>`: Specifies the path, ID, offset, and GUID of the WinRE location.
+  - `<ImageLocation>`: Specifies the path, ID, offset, and GUID of the WinRE image location.
+  - `<PBRImageLocation>`: Specifies the path, ID, offset, GUID, and index of the WinRE PBR (Push-Button Reset) image location.
+  - `<PBRCustomImageLocation>`: Specifies the path, ID, offset, GUID, and index of the WinRE custom PBR image location.
+  - `<InstallState>`, `<OsInstallAvailable>`, `<CustomImageAvailable>`, `<IsAutoRepairOn>`, `<WinREStaged>`, `<OperationParam>`, `<OperationPermanent>`, `<OsBuildVersion>`, `<OemTool>`, `<IsServer>`, `<DownlevelWinreLocation>`, `<IsWimBoot>`, `<NarratorScheduled>`, `<ScheduledOperation>`: These elements represent various states, paths, and parameters related to the WinRE configuration. Each element has a specific purpose, such as indicating the availability of OS installation, custom images, or specific tools.
+  
+this XML configuration provides settings and information about the WinRE setup and features. The specific values within the XML snippet you provided are either empty or set to 0, which might indicate that certain features or options are not currently active or available in the WinRE configuration.
+
+_______________________________________________________________________________________________________________________________________________________________________________
+
+These files & directories have been hidden and access denied to on the fresh OS
+ 
+C:\System Volume Information\SPP\OnlineMetadataCache
+{62b3a6ed-fff4-4987-b5c7-6d44e3edede5}_OnDiskSnapshotProp
+{17828c83-49c3-4024-9b16-508e1151305f}_OnDiskSnapshotProp
+{c69f9cc4-eba3-41c6-aec2-5f31bea17e55}_OnDiskSnapshotProp
+{fbc85800-ec72-4239-9240-844b8619678e}_OnDiskSnapshotProp
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________________
+
+Suspicious files possibly related
+
+C:\Documents and Settings\Default User\Local Settings\Microsoft\Windows\Shell\DefaultLayouts (the XML schema mentions a 2014 layout)
+
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________________
+
+NOTES
+
+The Attacker is using an old 2014 version of windows to patch over the current version and using modifications of an old windows xp system on the affected windows 10 system.
+The attacker is targeting ntoskml.exe the NT kernel & system with bootkit behavior.
+The Attacker is trying to prevent access to Tweaking.com Windows repair all in one x64.
+The attacker is trying to prevent access to Snort to be used as an IDS.
+The attacker is trying to prevent a clean boot or reset, or a clean install of a new windows ISO.
+The attacker placed McpManagementService or mcafee management suite on the system as a service.
+A prompt appears on each boot that looks user made suggesting hardware changes have occured and to click ok or x but the okay button isnt sized right.
+The attacker is attempting to prevent access to online multiplayer scenarios via steam and other game platform apps. Example Destiny 2 (Nightengale Error) 
+The attacker is interacting with winpeshl.exe during bootup suggesting the interaction is part of the rootkit found interacting with ntoskml.exe.
