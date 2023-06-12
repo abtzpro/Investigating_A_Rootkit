@@ -7,5 +7,5 @@ This is an investigation into the rootkit and malicious behavior on a machine th
 
 This repo will often be updated and is by no means complete
 
-the repo will be updated dwith findings regularly in an effort to paint a larger picture of the attack methodology, the attack chain as a whole, and the attack surface to focus patching on.
+the repo will be updated with findings regularly in an effort to paint a larger picture of the attack methodology, the attack chain as a whole, and the attack surface to focus patching on.
 
