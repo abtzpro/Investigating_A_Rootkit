@@ -1,0 +1,5 @@
+a type of malware called "Turla" or Called "Turla" or "Snake". This sophisticated piece of malware, which has been linked to cyber espionage activities, has been known to target Windows systems.
+
+Turla is a rootkit, and one of its main characteristics is its ability to abuse winpeshl.exe at system boot. This malware is known for its ability to infect the Master Boot Record (MBR) of a system and gain control even before the Windows OS loads, which is why it's capable of targeting the kernel.
+
+This malware is typically associated with advanced persistent threats (APTs) and has been used in targeted attacks against governments and large corporations. It's extremely stealthy and can evade many forms of detection, making it a significant threat.
