@@ -1,0 +1,136 @@
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\auto_open_controller.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\edge_checkout_page_validator.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\edge_confirmation_page_validator.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\edge_driver.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\edge_tracking_page_validator.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\product_page.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\shopping.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\shoppingfre.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\shopping_iframe_driver.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Travel\1.0.0.2\travel-facilitated-booking-bing.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\edge_driver.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\shopping_iframe_driver.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\vendor.bundle.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\bnpl\bnpl.bundle.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Mini-Wallet\miniwallet.bundle.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Notification\notification.bundle.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Tokenized-Card\tokenized-card.bundle.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Wallet-Checkout\load-ec-i18n.bundle.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Wallet-Checkout\wallet-drawer.bundle.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Microsoft\OneDrive\23.107.0521.0001\Lottie.min.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\5vM7IyPm1aHbj7v8NGPv4J6UNms.br[1].js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\AXW365L8KkOe-QZ0DxZ-t5039oA.br[1].js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\c13LSJiPayYsvaWhZ4UzVAql7_s.br[1].js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\cOH6IDE-qpJWKVw3mhE7eZ1cbHA.br[1].js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\fzzf-reQqDV_h9pAbD0fhFl173o.br[1].js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\KzWxoKDHqNy24XFwlA6xWw89_DA.br[1].js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\doctools.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\jquery-3.5.1.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\jquery.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\language_data.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\underscore-1.13.1.js
+Suspicious JavaScript file found: C:\Documents and Settings\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\underscore.js
+Suspicious JavaScript file found: C:\Program Files\WindowsApps\microsoft.windows.photos_2023.10030.27002.0_x64__8wekyb3d8bbwe\ImageEditorLib\Assets\web\ImageEditor\static\js\50.chunk.js
+Suspicious JavaScript file found: C:\Program Files\WindowsApps\microsoft.windows.photos_2023.10030.27002.0_x64__8wekyb3d8bbwe\ImageEditorLib\Assets\web\ImageEditor\static\js\main.js
+Suspicious JavaScript file found: C:\Program Files\WindowsApps\microsoft.windows.photos_2023.10030.27002.0_x64__8wekyb3d8bbwe\ImageEditorLib\Assets\web\ImageEditor\static\js\SpotFix.worker.worker.js
+Suspicious JavaScript file found: C:\Program Files (x86)\Steam\clientui\friends.js
+Suspicious JavaScript file found: C:\Program Files (x86)\Steam\steamui\chunk~2dcc5aaf7.js
+Suspicious JavaScript file found: C:\Program Files (x86)\Steam\steamui\library.js
+Suspicious JavaScript file found: C:\Program Files (x86)\Steam\steamui\sp.js
+Suspicious JavaScript file found: C:\Program Files (x86)\Steam\steamui\libraries\libraries~00299a408.js
+Suspicious JavaScript file found: C:\Program Files (x86)\Steam\steamui\libraries\libraries~2dcc5aaf7.js
+Suspicious JavaScript file found: C:\Program Files (x86)\WindowsInstallationAssistant\resources\ux\Microsoft.WinJS\js\base.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\auto_open_controller.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\edge_checkout_page_validator.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\edge_confirmation_page_validator.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\edge_driver.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\edge_tracking_page_validator.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\product_page.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\shopping.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\shoppingfre.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\2.0.5297.0\shopping_iframe_driver.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Travel\1.0.0.2\travel-facilitated-booking-bing.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\edge_driver.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\shopping_iframe_driver.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\vendor.bundle.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\bnpl\bnpl.bundle.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Mini-Wallet\miniwallet.bundle.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Notification\notification.bundle.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Tokenized-Card\tokenized-card.bundle.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Wallet-Checkout\load-ec-i18n.bundle.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\Edge\User Data\Edge Wallet\114.15623.15606.1\Wallet-Checkout\wallet-drawer.bundle.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Microsoft\OneDrive\23.107.0521.0001\Lottie.min.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\5vM7IyPm1aHbj7v8NGPv4J6UNms.br[1].js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\AXW365L8KkOe-QZ0DxZ-t5039oA.br[1].js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\c13LSJiPayYsvaWhZ4UzVAql7_s.br[1].js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\cOH6IDE-qpJWKVw3mhE7eZ1cbHA.br[1].js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\fzzf-reQqDV_h9pAbD0fhFl173o.br[1].js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\OC2EF2V7\7\KzWxoKDHqNy24XFwlA6xWw89_DA.br[1].js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\doctools.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\jquery-3.5.1.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\jquery.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\language_data.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\underscore-1.13.1.js
+Suspicious JavaScript file found: C:\Users\Robo1\AppData\Local\Programs\Python\Python311\Doc\html\_static\underscore.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\common.bundle.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\CommonMerged.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\uri.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\Formatter\typescript\formatterTypescriptServices.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\jQuery\jquery-2.1.1.min.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\monaco-editor\min\vs\base\worker\workerMain.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\monaco-editor\min\vs\editor\editor.main.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\monaco-editor\min\vs\language\css\cssWorker.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\monaco-editor\min\vs\language\html\htmlWorker.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\monaco-editor\min\vs\language\json\jsonWorker.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\monaco-editor\min\vs\language\typescript\lib\typescriptServices.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\monaco-editor\min\vs\language\typescript\src\worker.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\common\SlickGrid\slick.grid.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\debugger\debugger.bundle.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\debugger\Remote\debuggerDiagRemote.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\debugger\Remote\debuggerRemote.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\frontend\console.bundle.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\serviceworker\remote\serviceworkerRemote.bundle.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\js\cloudDomainJoin.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\lib\lottie.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\lib\require.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\lib\text.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\Microsoft.WinJS-reduced\js\base.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop\13.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop\14.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop\18.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop\21.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop\3.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop\6.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop\8.js
+Suspicious JavaScript file found: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop\9.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-c..riencehost.appxmain_31bf3856ad364e35_10.0.19041.2913_none_772de1b0030e4140\base.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-c..riencehost.appxmain_31bf3856ad364e35_10.0.19041.2913_none_772de1b0030e4140\cloudDomainJoin.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-c..riencehost.appxmain_31bf3856ad364e35_10.0.19041.2913_none_772de1b0030e4140\lottie.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-c..riencehost.appxmain_31bf3856ad364e35_10.0.19041.2913_none_772de1b0030e4140\require.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-c..riencehost.appxmain_31bf3856ad364e35_10.0.19041.2913_none_772de1b0030e4140\text.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\common.bundle.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\CommonMerged.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\console.bundle.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\cssWorker.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\debugger.bundle.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\debuggerDiagRemote.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\debuggerRemote.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\editor.main.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\formatterTypescriptServices.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\htmlWorker.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\jquery-2.1.1.min.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\jsonWorker.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\serviceworkerRemote.bundle.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\slick.grid.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\typescriptServices.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\uri.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\worker.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-m..oolsclient.appxmain_31bf3856ad364e35_10.0.19041.423_none_9de80b9d881a1ebd\workerMain.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-s..l.desktop.searchapp_31bf3856ad364e35_10.0.19041.1741_none_f64624138543d54c\13.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-s..l.desktop.searchapp_31bf3856ad364e35_10.0.19041.1741_none_f64624138543d54c\14.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-s..l.desktop.searchapp_31bf3856ad364e35_10.0.19041.1741_none_f64624138543d54c\18.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-s..l.desktop.searchapp_31bf3856ad364e35_10.0.19041.1741_none_f64624138543d54c\21.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-s..l.desktop.searchapp_31bf3856ad364e35_10.0.19041.1741_none_f64624138543d54c\3.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-s..l.desktop.searchapp_31bf3856ad364e35_10.0.19041.1741_none_f64624138543d54c\6.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-s..l.desktop.searchapp_31bf3856ad364e35_10.0.19041.1741_none_f64624138543d54c\8.js
+Suspicious JavaScript file found: C:\Windows\WinSxS\amd64_microsoft-windows-s..l.desktop.searchapp_31bf3856ad364e35_10.0.19041.1741_none_f64624138543d54c\9.js
