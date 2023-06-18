@@ -85,4 +85,8 @@ The attacker is interacting with winpeshl.exe during bootup suggesting the inter
 ______________________________________________________________________________________________________________________________________________________________________________
 
 6/17/2023 10:30PM CST -10:50PM CST 
-a reset of the IPv4-IPV6 networking stack failed with access denied errors accross all spectrums. Appropriate permissions given within the registry entry to the Everyone rule provided an avenue for a reset. Upon resetting the network stack and networking protocols I was suddenly able to use WindowsMediaCreationToll22H2 again. Thus proving the malware / bootkit / threat actor was actively using their manipulations to prevent the install of a clean windows ISO or upgrade in place. At around 10:51PM CST the WindowsMediaCreationTool22H2 window closed and re-opened for a split second and the process began again. 
+a reset of the IPv4-IPV6 networking stack failed with access denied errors accross all spectrums. 
+Appropriate permissions given within the registry entry to the Everyone rule provided an avenue for a reset. 
+Upon resetting the network stack and networking protocols I was suddenly able to use WindowsMediaCreationToll22H2 again. 
+Thus proving the malware / bootkit / threat actor was actively using their manipulations to prevent the install of a clean windows ISO or upgrade in place. 
+At around 10:51PM CST the WindowsMediaCreationTool22H2 window closed and re-opened for a split second and the process began again. 
