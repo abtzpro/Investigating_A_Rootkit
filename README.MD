@@ -90,12 +90,22 @@ The IOC has been cross referenced against VirusTotal, OTX, Sophos Security, and 
 
 It seems to explicitely deliver further payloads andd malware when downloading repair and analysis software from well known sources such as bleeping computer, microsoft, and gmer.net
 
+A common vector used in the past by a threat actor to deploy BlackCat ransomware/malware framework consists of an unsecured VPN and Firewall flaw. (AR began seeing symptoms on the machine
+with Firewalla Gold box and Nord VPN in use for this liesure machine and environment setup) 
+"This should emphasize the need to harden & patch a machine against as many publicly listed CVE's and vulnerabilities as possible. This was an old 2018 Vulnerability abused in the VPN & firewall killchain. " ~ AR 
+
 threat actor abuses this path on the machine C:\ProgramData\Packages with the following packages within that path
 Microsoft.549981C3F5F10_8wekyb3d8bbwe
 Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
 Microsoft.Windows.Photos_8wekyb3d8bbwe
 NVIDIACorp.NVIDIAControlPanel_56jybvy8sckqj
 SpotifyAB.SpotifyMusic_zpdnekdrzrea0
+
+Threat actor abuses this registry location to prevent network stack resets and keep persistence. The blackcat framework relies heavily on the local network for traversial
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nsi
+on each reboot the "Everyone" role as well as the current user account will be denied access to this registry entry. If a startup script is scheduled a s a scheduled task to give the current user account
+permissions over this key as the current user logs on or at boot time, the ransomware/malware framework will cause a bootlop in which the winpeshl.exe file is abused to reiterate a hold over the machine
+the blackcat framework also creates new COM objects andd begins a new iteration of its install steps after each action performed by the attacker.
 
 ## More IOC
 https://bleepingcomputer.com > download "hijackthis.exe" (for checking startup files, hijacked DLLs etc > scan it against VirusTotal > Get these results
@@ -125,7 +135,8 @@ listed as a Trojan.Malware.300983.susgen by Acronis (Static ML)
 
 OTX had no listing for the SHA-256 signature of "GrantPerms64.zip"
 
-C:\Users\REDACTED\Cookies\ESE\container.dat > VT scan results >
+C:\Users\REDACTED\Cookies\ESE\container.dat (android-cts-7.1_r6-linux_x86-arm.zip)
+VT scan results >
 https://www.virustotal.com/gui/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 The sandbox C2AE flags this file as: STEALER
 The sandbox ReaQta-Hive flags this file as: MALWARE
@@ -137,5 +148,31 @@ C:\ProgramData\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\REDACTED\Sys
 a5e24e12fd376cc9_COM15.dat.LOG2. Checking basic google search shows mention of the path for an app called Desktop Bridge https://stackoverflow.com/questions/65849063/after-the-desktop-bridge-app-is-uninstalled-programdata-packages-appname-stil and here https://learn.microsoft.com/en-us/answers/questions/241923/after-the-desktop-bridge-app-is-uninstalled-progra
 Following the attack flow of Blackcat by abusing a valid app or service to further the attacker's privilige and hold over the infected machine.
 
+C:\ProgramData\NVIDIA Corporation\Drs\nvdrswr.lk (android-cts-7.1_r6-linux_x86-arm.zip)
+nvdrswr.lk scanned against VT gives these results
+https://www.virustotal.com/gui/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+The sandbox C2AE flags this file as: STEALER
+The sandbox ReaQta-Hive flags this file as: MALWARE
 
+checking nvdrswr.lk aginst OTX gives these results
+https://otx.alienvault.com/indicator/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Listed as a honeypot, telnet, cowrie, and ssh
+(ensure you read the comments specifically one posted by user TELEMACH1)
+
+C:\ProgramData\NVIDIA\NGX\models\dlss\versions\131357\files\160_B9F5618.bin "160_B9F5618.bin" (CL 29016210)
+scanned against VT >
+https://www.virustotal.com/gui/file/cb195979de6ab5cdf1d54e03326aa5006279ce6fa8642bcce3f23a7db7c20444
+listed as matching a Yara rule INDICATOR_KB_CERT_62e745e92165213c971f5c490aea12a5 
+Ruleset: indicator_knownbad_certs
+https://github.com/ditekshen/detection - Detects executables signed with stolen, revoked or invalid certificates
+(flagged for bad certificates)
+OTX had no listing for the SHA-256 signature cb195979de6ab5cdf1d54e03326aa5006279ce6fa8642bcce3f23a7db7c20444
+
+C:\ProgramData\NVIDIA\NGX\models\dlss\versions\131356\files\160_F7361DC.bin "160_F7361DC.bin" (CL 29016210)
+VT report >
+https://www.virustotal.com/gui/file/3afadd4778f94bfbbc10dceb91173299faaabe01feaca3aeb1a16b50b9aa1a1b
+Matches rule INDICATOR_KB_CERT_62e745e92165213c971f5c490aea12a5 by ditekSHen from ruleset indicator_knownbad_certs at https://github.com/ditekshen/detection Detects executables signed with stolen, 
+revoked or invalid certificates 
+Matches rule User with Privileges Logon by frack113 at Sigma Integrated Rule Set (GitHub) Detects logon with "Special groups" and "Special Privileges" can be thought of as Administrator groups or privileges. 
+OTX had no listing for SHA-256 signature 3afadd4778f94bfbbc10dceb91173299faaabe01feaca3aeb1a16b50b9aa1a1b
 
