@@ -1,6 +1,6 @@
-## Hello Security LLC DIsclosure - BlackCat Ransomware RaaS (Ransomware as a service) 
+# Hello Security LLC DIsclosure - BlackCat Ransomware RaaS (Ransomware as a service) 
 
-# The Investigation continues...
+## The Investigation continues...
 
 
 Between the dates of 6/17/2023 and 6/20/2023 Hello Security LLC Cyber Forensic Investigator Adam Rivers (Henceforth referred to as AR) began investigating a Hello Security LLC machine used for liesurely (hobby) development, liesure activities, and streaming within the Hello Security LLC environment. 
@@ -57,7 +57,7 @@ Noting explicitly from Alien Labs account *Direct from AlienVault Labs* an affil
 
 BlackCat is distributed by the Russian Ransomware gang BlackCat, LockBit, and the Black Basta Ransomware groups as a RaaS or Ransomware as a service. (pay as you go service - this one purchased on the darkweb)
 
-# A Working Theory...
+## A Working Theory...
 
 
 At 6:30AM CST on 6/20/2023 AR's working theory is that the underlying issues described above where caused by a threat actor whom purchased access to the BlackCat
@@ -81,7 +81,7 @@ Continuing with AR's working theory,
 This became the threat actor's new access vector to ensure persistence and access to the threat actor's backdoor on the Hello Security LLC machine.
 ("The attacker noted a loss of functionality and wanted to ensure they did not lose a foothold in the system thus the avenue of infection became gmer.exe" ` AR)
 
-## IOC present on the machine
+# IOC present on the machine
 
 As IOC, the network traffic noted in both OTX and VirusTotal for the gmer.exe BlackCat Ransomware framework have been observed on the infected machine via NIDS logs for at least 3-4 weeks.
 There are at least 75% of the files mentioned in each article above present on the machine, a custom built Asus MOBO, AMD CPU based machine running windows 10 home x64 official activated.
@@ -97,7 +97,7 @@ However blackcat is indeed a RaaS which can be purchased from their darkweb link
 (To Be Updated)
 
 
-## Notes
+# Notes
 
 The IOC has been cross referenced against VirusTotal, OTX, Sophos Security, and MITRE DB.
 
@@ -120,7 +120,7 @@ on each reboot the "Everyone" role as well as the current user account will be d
 permissions over this key as the current user logs on or at boot time, the ransomware/malware framework will cause a bootlop in which the winpeshl.exe file is abused to reiterate a hold over the machine
 the blackcat framework also creates new COM objects andd begins a new iteration of its install steps after each action performed by the attacker.
 
-## More IOC
+# More IOC
 
 https://bleepingcomputer.com > download "hijackthis.exe" 
 - for checking startup files, hijacked DLLs etc 
