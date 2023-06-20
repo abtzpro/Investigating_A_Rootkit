@@ -1,18 +1,22 @@
 ## Hello Security LLC DIsclosure report 6/20/2023
 
-Between the dates of 6/17/2023 and 6/20/2023 Hello Security LLC Cyber Forensic Investigator Adam Rivers began investigating a Hello Security LLC machine used for liesurely (hobby) development, 
-liesure activities, and streaming within the Hello Security LLC environment. Between those dates AR was able to remove a bit of the attackers hold on the system via Registry via avenue of HKEY 
+
+Between the dates of 6/17/2023 and 6/20/2023 Hello Security LLC Cyber Forensic Investigator Adam Rivers (Henceforth referred to as AR) began investigating a Hello Security LLC machine used for liesurely (hobby) development, liesure activities, and streaming within the Hello Security LLC environment. 
+The machine in question seemed to be exhibiting symptoms of an APT bootkit.  
+Between the listed dates, AR was able to remove a bit of the attackers hold on the system via Registry via avenue of HKEY 
 currentcontrolset regentries by crossreferencing what should and should not be there. The reason for doing so was an observed bootkit style activity persisting through factory resets, ISO installs, 
 and upgrades in place. The infection would traverse to USB installers,
-CD ROM Windows ISO installer Discs and OEM usb installers. 
+CD ROM Windows ISO installer Discs and OEM usb installers, overwriting the install medias with a custom ISO resembling that of an Enterprise ISO. (Likely To perform further escalation and lateral movement) 
 The infection would persist beyond nuke and boot tactics and much more. 
 It showed signs of an APT. 
-This sparked AR to assume a bootkit and begin working under this assumption. 
-Some of the attack vector observed where kernel level access and manipulation, network (DDoS activities) and file share functions for exfiltration and data offloading of stolen files and data.
+
+This sparked AR to assume a bootkit was present on the machine and begin working under this assumption. 
+Some of the attack vectors observed where kernel level access and manipulation, network (DDoS activities) and file share functions for exfiltration and data offloading of stolen files and data.
 Other vectors observed where the attacker's ability to persists and reinstall the framework of the exploitkit after a fresh reset, affect the winpeshl.exe file, create services andd inject DLLs, hide their
-activities on the system, add users and administrators, network traversial and manipulation, and much more. 
-at 1:43 am CST 6/20/2023 AR used firefox browser on the infected machine (installed via powershell winget install Mozilla.Firefox to be cautious) to navigate to
-http://gmer.net to install gmer.exe. Running gmer.exe zipped as gmer.zip and extracted it to the downloads folder, and the moved it to the desktop 
+The ability to create activities on the system, add users and administrators, network traversial and manipulation, and much more. 
+
+at 1:43 am CST 6/20/2023 AR used firefox browser on the infected machine (installed via powershell winget install Mozilla.Firefox to be cautious) in order to navigate to
+http://gmer.net to install gmer.exe. The "gmer.exe" file was zipped as "gmer.zip" and was extracted to the downloads folder, and the moved to the desktop. 
 running gmer.exe from desktop prompted windows smart screen to display gmer.exe as malicious and malware with a bright red display window.
 AR then navigated to https://www.virustotal.com in order to upload and scan the gmer.exe file.
 Virustotal reported the following
@@ -41,8 +45,10 @@ F-PROT packer UPX
 
 AR then crossreferenced the SHA-256 signature of the file against OTX alienvault which provided this pulse 
 https://otx.alienvault.com/indicator/file/e8a3e804a96c716a3e9b69195db6ffb0d33e2433af871e4d4e1eab3097237173
-noting explicitly from Alien Labs account *Direct from AlienVault Labs* an affiliation to Noberus ransomware aka BlackCat aka ALPHV ransomware.
-Distributed by the Russian BlackCat gang, LockBit, and the Black Basta Ransomware groups as a RaaS or Ransomware as a service.
+
+Noting explicitly from Alien Labs account *Direct from AlienVault Labs* an affiliation to Noberus ransomware aka BlackCat aka ALPHV ransomware.
+
+Distributed by the Russian Ransomware gang BlackCat, LockBit, and the Black Basta Ransomware groups as a RaaS or Ransomware as a service. (pay as you go service - this one purchased on the darkweb)
 
 At 6:30AM CST on 6/20/2023 AR's working theory is that the underlying issues described above where caused by a threat actor whom purchased access to the BlackCat
 Ransomware framework via their darkweb store and very public facing webpages boasting a factor of fostering trust as malware and ransomware developers with their userbase,
@@ -59,6 +65,8 @@ As such, due to BlackCat resembling a bootkit, AR attemnpted a scan with gmer.ex
 Continuing with AR's working theory, 
 This became the threat actor's new access vector to ensure persistence and access to the threat actor's backdoor on the Hello Security LLC machine.
 ("The attacker noted a loss of functionality and wanted to ensure they did not lose a foothold in the system thus the avenue of infection became gmer.exe" ` AR)
+
+## IOC present on the machine
 
 As IOC, the network traffic noted in both OTX and VirusTotal for the gmer.exe BlackCat Ransomware framework have been observed on the infected machine via NIDS logs for at least 3-4 weeks.
 There are at least 75% of the files mentioned in each article above present on the machine, a custom built Asus MOBO, AMD CPU based machine running windows 10 home x64 official activated.
