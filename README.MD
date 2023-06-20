@@ -56,11 +56,16 @@ At 6:30AM CST on 6/20/2023 AR's working theory is that the underlying issues des
 Ransomware framework via their darkweb store and very public facing webpages boasting a factor of fostering trust as malware and ransomware developers with their userbase,
 and when AR began removing certain registry keys under HKEY\currentcontrolset, the threat actor began losing a foothold within the system. The blackcat ransomware framework
 resembles a bootkit in the manner it operates as described in these articles 
-https://news.sophos.com/en-us/2022/07/14/blackcat-ransomware-attacks-not-merely-a-byproduct-of-bad-luck/
-https://www.salvagedata.com/alphv-blackcat-ransomware/
-https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/noberus-blackcat-ransomware-ttps
-https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/
-https://news.sophos.com/en-us/2022/11/30/lockbit-3-0-black-attacks-and-leaks-reveal-wormable-capabilities-and-tooling/
+
+- https://news.sophos.com/en-us/2022/07/14/blackcat-ransomware-attacks-not-merely-a-byproduct-of-bad-luck/
+
+- https://www.salvagedata.com/alphv-blackcat-ransomware/
+
+- https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/noberus-blackcat-ransomware-ttps
+
+- https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/
+
+- https://news.sophos.com/en-us/2022/11/30/lockbit-3-0-black-attacks-and-leaks-reveal-wormable-capabilities-and-tooling/
 
 As such, due to BlackCat resembling a bootkit, AR attemnpted a scan with gmer.exe as mentioned from the aforementioned source. 
 
