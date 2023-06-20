@@ -82,3 +82,8 @@ the threatactor can interact with the infected devices in a direct and immediate
 
 However blackcat is indeed a RaaS which can be purchased from their darkweb link 
 (To Be Updated)
+
+
+## Notes
+
+The IOC has been cross referenced against VirusTotal, OTX, Sophos Security, and MITRE DB.
