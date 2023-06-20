@@ -4,7 +4,7 @@
 Between the dates of 6/17/2023 and 6/20/2023 Hello Security LLC Cyber Forensic Investigator Adam Rivers (Henceforth referred to as AR) began investigating a Hello Security LLC machine used for liesurely (hobby) development, liesure activities, and streaming within the Hello Security LLC environment. 
 The machine in question seemed to be exhibiting symptoms of an APT bootkit.  
 Between the listed dates, AR was able to remove a bit of the attackers hold on the system via Registry via avenue of HKEY 
-currentcontrolset regentries by crossreferencing what should and should not be there. The reason for doing so was an observed bootkit style activity persisting through factory resets, ISO installs, 
+currentcontrolset reg entries by cross-referencing what should and should not be there manually entry by entry. The reason for doing so was an observed bootkit style activity persisting through factory resets, ISO installs, 
 and upgrades in place. The infection would traverse to USB installers,
 CD ROM Windows ISO installer Discs and OEM usb installers, overwriting the install medias with a custom ISO resembling that of an Enterprise ISO. (Likely To perform further escalation and lateral movement) 
 The infection would persist beyond nuke and boot tactics and much more. 
