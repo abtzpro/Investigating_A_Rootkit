@@ -117,16 +117,14 @@ https://bleepingcomputer.com > download "hijackthis.exe"
 - for checking startup files, hijacked DLLs etc 
 > scan it against VirusTotal > Get these results
 https://www.virustotal.com/gui/file/9da5a899b9d55e1d43718ec0ad6368f9e9ef0242a4e88cd5ddb2cc6d7bfa5fb3
-
 OTX has a single pulse listing the SHA-256 signature of hijackthis.exe as well listed as: UPX (like BlackCat)
 https://otx.alienvault.com/indicator/file/9da5a899b9d55e1d43718ec0ad6368f9e9ef0242a4e88cd5ddb2cc6d7bfa5fb3 
 - hijack this was downloaded as a means of troubleshooting the existing exhibited bootkit symptoms to determine if their was a Hijacker in place.
 
-https://bleepingcomputer.com > download "rkill.exe" for killing malware associated processes and rogue processes 
-- in an attempt to free up a locked process preventing removal of a file.
+https://bleepingcomputer.com > download "rkill.exe" 
+- for killing malware associated processes and rogue processes in an attempt to free up a locked process preventing removal of a file.
 > Scan "rkill.exe" against VirusTotal > get these results >
 https://www.virustotal.com/gui/file/d4ac5b3c525a5fd94019d80ff81b552e73b19b1bd0a554b9609cdd5e1b00955a
-
 checking the SHA-256 signature of "rkill.exe" against OTX gives these results
 https://otx.alienvault.com/indicator/file/d4ac5b3c525a5fd94019d80ff81b552e73b19b1bd0a554b9609cdd5e1b00955a
 OTX lists it as an IOC for QakBot, a delivery and deployment methodology of BlackCat aka Noberus, aka ALPHV Ransomware framework.
