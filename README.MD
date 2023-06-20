@@ -87,3 +87,48 @@ However blackcat is indeed a RaaS which can be purchased from their darkweb link
 ## Notes
 
 The IOC has been cross referenced against VirusTotal, OTX, Sophos Security, and MITRE DB.
+
+It seems to explicitely deliver further payloads andd malware when downloading repair and analysis software from well known sources such as bleeping computer, microsoft, and gmer.net
+
+## More IOC
+https://bleepingcomputer.com > download "hijackthis.exe" (for checking startup files, hijacked DLLs etc > scan it against VirusTotal > Get these results
+https://www.virustotal.com/gui/file/9da5a899b9d55e1d43718ec0ad6368f9e9ef0242a4e88cd5ddb2cc6d7bfa5fb3
+
+OTX has a single pulse listing the SHA-256 signature of hijackthis.exe as well listed as: UPX (like BlackCat)
+https://otx.alienvault.com/indicator/file/9da5a899b9d55e1d43718ec0ad6368f9e9ef0242a4e88cd5ddb2cc6d7bfa5fb3 
+
+-hijack this was downloaded as a means of troubleshooting the existing exhibited bootkit symptoms to determine if their was a Hijacker in place.
+
+https://bleepingcomputer.com > download "rkill.exe" for killing malware associated processes and rogue processes (in an attempt to free up a locked process preventing removal of a file.
+> Scan "rkill.exe" against VirusTotal > get these results >
+https://www.virustotal.com/gui/file/d4ac5b3c525a5fd94019d80ff81b552e73b19b1bd0a554b9609cdd5e1b00955a
+
+checking the SHA-256 signature of "rkill.exe" against OTX gives these results
+https://otx.alienvault.com/indicator/file/d4ac5b3c525a5fd94019d80ff81b552e73b19b1bd0a554b9609cdd5e1b00955a
+OTX lists it as an IOC for QakBot, a delivery and deployment methodology of BlackCat aka Noberus, aka ALPHV Ransomware framework.
+
+Downloading "Loki" (to be used as an APT hunting framework assistant) from the official github source > Scanning the resultant Loki.zip file against VirusTotal > get these results
+https://www.virustotal.com/gui/file/32d340d982b91616bd966da8a5807d4eac7febb1d0e87da1acee7cd8c9d295ae
+OTX has no listing for the SHA-256hash of the Loki zip. (this could potentially be a flase positive but Zenbox sandbox flagged it as MALWARE RANSOM TROJAN EVADER RAT)
+
+Downloading "GrantPerms64" from https://bleepingcomputer.com official site (used for giving and taking permissions on files in the hopes of freeing up some file access issues) >
+Scan the resultant GrantPerms64.zip against VirusTotal > Get these results >
+https://www.virustotal.com/gui/file/662e5f8ca897ef38ba6d7bd65c298795949abfa7990482826cd4186052d8ec44
+listed as a Trojan.Malware.300983.susgen by Acronis (Static ML)
+
+OTX had no listing for the SHA-256 signature of "GrantPerms64.zip"
+
+C:\Users\REDACTED\Cookies\ESE\container.dat > VT scan results >
+https://www.virustotal.com/gui/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+The sandbox C2AE flags this file as: STEALER
+The sandbox ReaQta-Hive flags this file as: MALWARE
+OTX of the SHA-256 signature provided by VT scan shows these results
+https://otx.alienvault.com/indicator/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Marked as  honeypot , telnet , cowrie , ssh
+
+C:\ProgramData\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\REDACTED\SystemAppData\Helium\cache contains a5e24e12fd376cc9.dat, a5e24e12fd376cc9_COM15.dat, a5e24e12fd376cc9_COM15.dat.LOG1, and 
+a5e24e12fd376cc9_COM15.dat.LOG2. Checking basic google search shows mention of the path for an app called Desktop Bridge https://stackoverflow.com/questions/65849063/after-the-desktop-bridge-app-is-uninstalled-programdata-packages-appname-stil and here https://learn.microsoft.com/en-us/answers/questions/241923/after-the-desktop-bridge-app-is-uninstalled-progra
+Following the attack flow of Blackcat by abusing a valid app or service to further the attacker's privilige and hold over the infected machine.
+
+
+
