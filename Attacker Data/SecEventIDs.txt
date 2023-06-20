@@ -1,0 +1,29 @@
+commonly relevant Windows Security Event IDs:
+
+    Event ID 4688: A new process has been created - Malware often creates new processes.
+
+    Event ID 4697: A service was installed in the system - Malware often installs new services to achieve persistence.
+
+    Event ID 4624: An account was successfully logged on - Malware might use stolen credentials to log onto systems.
+
+    Event ID 4648: A logon was attempted using explicit credentials - Could indicate Pass-the-Hash or other forms of credential misuse.
+
+    Event ID 4663: An attempt was made to access an object - Could indicate attempts to modify system files or registry.
+
+    Event ID 1102: The audit log was cleared - This might indicate an attacker trying to erase tracks.
+
+    Event ID 7045: A service was installed in the system - This could indicate a new service being installed for persistence.
+
+    Event ID 4672: Special privileges assigned to new logon - Unusual privileges might indicate malicious activity.
+
+    Event ID 4720: A user account was created - Unusual account creation could be an indicator of compromise.
+
+    Event ID 4719: System audit policy was changed - A malware may change the audit policy to disable tracking of certain events.
+
+    Event ID 4798: A user's local group membership was enumerated - Could indicate reconnaissance activity.
+
+    Event ID 4799: A security-enabled local group membership was enumerated - This could also indicate reconnaissance activity.
+
+    Event ID 601: A user attempted to install a service - The installation of new services may indicate malicious activity.
+
+    Event ID 5061: A cryptographic operation was attempted - Could indicate attempts to decrypt or encrypt data or communications.
