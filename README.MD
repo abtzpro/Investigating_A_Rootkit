@@ -21,6 +21,8 @@ running gmer.exe from desktop prompted windows smart screen to display gmer.exe 
 AR then navigated to https://www.virustotal.com in order to upload and scan the gmer.exe file.
 Virustotal reported the following
 
+https://www.virustotal.com/gui/file/e8a3e804a96c716a3e9b69195db6ffb0d33e2433af871e4d4e1eab3097237173/details
+
 MD5 e9dc058440d321aa17d0600b3ca0ab04
 SHA-1 539c228b6b332f5aa523e5ce358c16647d8bbe57
 SHA-256 e8a3e804a96c716a3e9b69195db6ffb0d33e2433af871e4d4e1eab3097237173
