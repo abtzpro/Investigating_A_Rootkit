@@ -77,7 +77,7 @@ direct a user no matter the browser used, to a malicious URL used for logging th
 
 The framework seems to be part of a bigger framework that can also target android OS and iOS devices including the newest released iphone 14 pro. The same symptoms can be witnessed across devices as if
 they where settings synced for an official service of microsoft device to device. There is also the possibility a larger framework would not be required as the blackcat framework is written in RUST
-and can be deployed on quite a large variety of devices, thus with a few modifications, could easily be made to work for both. BlackCat encapsulates a few RAT (remote access terminals to ensure
+and can be deployed on quite a large variety of devices, thus with a few modifications, could easily be made to work for both. BlackCat encapsulates a few RAT (remote access terminals) to ensure
 the threatactor can interact with the infected devices in a direct and immediate manner in reaction to or retaliation to removal attempts and attempts to investigate the framework.
 
 However blackcat is indeed a RaaS which can be purchased from their darkweb link 
