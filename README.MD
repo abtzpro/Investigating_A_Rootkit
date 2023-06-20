@@ -109,7 +109,7 @@ OTX lists it as an IOC for QakBot, a delivery and deployment methodology of Blac
 
 Downloading "Loki" (to be used as an APT hunting framework assistant) from the official github source > Scanning the resultant Loki.zip file against VirusTotal > get these results
 https://www.virustotal.com/gui/file/32d340d982b91616bd966da8a5807d4eac7febb1d0e87da1acee7cd8c9d295ae
-OTX has no listing for the SHA-256hash of the Loki zip. (this could potentially be a flase positive but Zenbox sandbox flagged it as MALWARE RANSOM TROJAN EVADER RAT)
+OTX has no listing for the SHA-256hash of the Loki zip. (this could potentially be a false positive but Zenbox sandbox flagged it as MALWARE RANSOM TROJAN EVADER RAT)
 
 Downloading "GrantPerms64" from https://bleepingcomputer.com official site (used for giving and taking permissions on files in the hopes of freeing up some file access issues) >
 Scan the resultant GrantPerms64.zip against VirusTotal > Get these results >
