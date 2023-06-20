@@ -90,6 +90,13 @@ The IOC has been cross referenced against VirusTotal, OTX, Sophos Security, and 
 
 It seems to explicitely deliver further payloads andd malware when downloading repair and analysis software from well known sources such as bleeping computer, microsoft, and gmer.net
 
+threat actor abuses this path on the machine C:\ProgramData\Packages with the following packages within that path
+Microsoft.549981C3F5F10_8wekyb3d8bbwe
+Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+Microsoft.Windows.Photos_8wekyb3d8bbwe
+NVIDIACorp.NVIDIAControlPanel_56jybvy8sckqj
+SpotifyAB.SpotifyMusic_zpdnekdrzrea0
+
 ## More IOC
 https://bleepingcomputer.com > download "hijackthis.exe" (for checking startup files, hijacked DLLs etc > scan it against VirusTotal > Get these results
 https://www.virustotal.com/gui/file/9da5a899b9d55e1d43718ec0ad6368f9e9ef0242a4e88cd5ddb2cc6d7bfa5fb3
