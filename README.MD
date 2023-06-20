@@ -113,6 +113,7 @@ permissions over this key as the current user logs on or at boot time, the ranso
 the blackcat framework also creates new COM objects andd begins a new iteration of its install steps after each action performed by the attacker.
 
 ## More IOC
+
 https://bleepingcomputer.com > download "hijackthis.exe" 
 - for checking startup files, hijacked DLLs etc 
 > scan it against VirusTotal > Get these results
@@ -120,7 +121,9 @@ https://www.virustotal.com/gui/file/9da5a899b9d55e1d43718ec0ad6368f9e9ef0242a4e8
 OTX has a single pulse listing the SHA-256 signature of hijackthis.exe as well listed as: UPX (like BlackCat)
 https://otx.alienvault.com/indicator/file/9da5a899b9d55e1d43718ec0ad6368f9e9ef0242a4e88cd5ddb2cc6d7bfa5fb3 
 - hijack this was downloaded as a means of troubleshooting the existing exhibited bootkit symptoms to determine if their was a Hijacker in place.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 https://bleepingcomputer.com > download "rkill.exe" 
 - for killing malware associated processes and rogue processes in an attempt to free up a locked process preventing removal of a file.
 > Scan "rkill.exe" against VirusTotal > get these results >
@@ -128,18 +131,24 @@ https://www.virustotal.com/gui/file/d4ac5b3c525a5fd94019d80ff81b552e73b19b1bd0a5
 checking the SHA-256 signature of "rkill.exe" against OTX gives these results
 https://otx.alienvault.com/indicator/file/d4ac5b3c525a5fd94019d80ff81b552e73b19b1bd0a554b9609cdd5e1b00955a
 OTX lists it as an IOC for QakBot, a delivery and deployment methodology of BlackCat aka Noberus, aka ALPHV Ransomware framework.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Downloading "Loki" (to be used as an APT hunting framework assistant) from the official github source > Scanning the resultant Loki.zip file against VirusTotal > get these results
 https://www.virustotal.com/gui/file/32d340d982b91616bd966da8a5807d4eac7febb1d0e87da1acee7cd8c9d295ae
 OTX has no listing for the SHA-256hash of the Loki zip. (this could potentially be a false positive but Zenbox sandbox flagged it as MALWARE RANSOM TROJAN EVADER RAT)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Downloading "GrantPerms64" from https://bleepingcomputer.com official site 
 - used for giving and taking permissions on files in the hopes of freeing up some file access issues
 Scan the resultant GrantPerms64.zip against VirusTotal > Get these results >
 https://www.virustotal.com/gui/file/662e5f8ca897ef38ba6d7bd65c298795949abfa7990482826cd4186052d8ec44
 listed as a Trojan.Malware.300983.susgen by Acronis (Static ML)
 OTX had no listing for the SHA-256 signature of "GrantPerms64.zip"
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 C:\Users\REDACTED\Cookies\ESE\container.dat (android-cts-7.1_r6-linux_x86-arm.zip)
 VT scan results >
 https://www.virustotal.com/gui/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
@@ -148,22 +157,30 @@ The sandbox ReaQta-Hive flags this file as: MALWARE
 OTX of the SHA-256 signature provided by VT scan shows these results
 https://otx.alienvault.com/indicator/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 Marked as  honeypot , telnet , cowrie , ssh
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 C:\ProgramData\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\REDACTED\SystemAppData\Helium\cache contains a5e24e12fd376cc9.dat, a5e24e12fd376cc9_COM15.dat, a5e24e12fd376cc9_COM15.dat.LOG1, and 
 a5e24e12fd376cc9_COM15.dat.LOG2. Checking basic google search shows mention of the path for an app called Desktop Bridge https://stackoverflow.com/questions/65849063/after-the-desktop-bridge-app-is-uninstalled-programdata-packages-appname-stil and here https://learn.microsoft.com/en-us/answers/questions/241923/after-the-desktop-bridge-app-is-uninstalled-progra
 Following the attack flow of Blackcat by abusing a valid app or service to further the attacker's privilige and hold over the infected machine.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 C:\ProgramData\NVIDIA Corporation\Drs\nvdrswr.lk (android-cts-7.1_r6-linux_x86-arm.zip)
 nvdrswr.lk scanned against VT gives these results
 https://www.virustotal.com/gui/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 The sandbox C2AE flags this file as: STEALER
 The sandbox ReaQta-Hive flags this file as: MALWARE
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 checking nvdrswr.lk aginst OTX gives these results
 https://otx.alienvault.com/indicator/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 Listed as a honeypot, telnet, cowrie, and ssh
 (ensure you read the comments specifically one posted by user TELEMACH1)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 C:\ProgramData\NVIDIA\NGX\models\dlss\versions\131357\files\160_B9F5618.bin "160_B9F5618.bin" (CL 29016210)
 scanned against VT >
 https://www.virustotal.com/gui/file/cb195979de6ab5cdf1d54e03326aa5006279ce6fa8642bcce3f23a7db7c20444
@@ -172,7 +189,9 @@ Ruleset: indicator_knownbad_certs
 https://github.com/ditekshen/detection - Detects executables signed with stolen, revoked or invalid certificates
 (flagged for bad certificates)
 OTX had no listing for the SHA-256 signature cb195979de6ab5cdf1d54e03326aa5006279ce6fa8642bcce3f23a7db7c20444
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 C:\ProgramData\NVIDIA\NGX\models\dlss\versions\131356\files\160_F7361DC.bin "160_F7361DC.bin" (CL 29016210)
 VT report >
 https://www.virustotal.com/gui/file/3afadd4778f94bfbbc10dceb91173299faaabe01feaca3aeb1a16b50b9aa1a1b
@@ -180,4 +199,5 @@ Matches rule INDICATOR_KB_CERT_62e745e92165213c971f5c490aea12a5 by ditekSHen fro
 revoked or invalid certificates 
 Matches rule User with Privileges Logon by frack113 at Sigma Integrated Rule Set (GitHub) Detects logon with "Special groups" and "Special Privileges" can be thought of as Administrator groups or privileges. 
 OTX had no listing for SHA-256 signature 3afadd4778f94bfbbc10dceb91173299faaabe01feaca3aeb1a16b50b9aa1a1b
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
