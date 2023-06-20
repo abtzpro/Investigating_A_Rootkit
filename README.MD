@@ -1,5 +1,7 @@
 ## Hello Security LLC DIsclosure - BlackCat Ransomware RaaS (Ransomware as a service) 
 
+# The Investigation continues...
+
 
 Between the dates of 6/17/2023 and 6/20/2023 Hello Security LLC Cyber Forensic Investigator Adam Rivers (Henceforth referred to as AR) began investigating a Hello Security LLC machine used for liesurely (hobby) development, liesure activities, and streaming within the Hello Security LLC environment. 
 The machine in question seemed to be exhibiting symptoms of an APT bootkit.  
@@ -50,7 +52,13 @@ https://otx.alienvault.com/indicator/file/e8a3e804a96c716a3e9b69195db6ffb0d33e24
 
 Noting explicitly from Alien Labs account *Direct from AlienVault Labs* an affiliation to Noberus ransomware aka BlackCat aka ALPHV ransomware.
 
-Distributed by the Russian Ransomware gang BlackCat, LockBit, and the Black Basta Ransomware groups as a RaaS or Ransomware as a service. (pay as you go service - this one purchased on the darkweb)
+## So Who sells The BlackCat RaaS to the threat actor?
+
+
+BlackCat is distributed by the Russian Ransomware gang BlackCat, LockBit, and the Black Basta Ransomware groups as a RaaS or Ransomware as a service. (pay as you go service - this one purchased on the darkweb)
+
+# A Working Theory...
+
 
 At 6:30AM CST on 6/20/2023 AR's working theory is that the underlying issues described above where caused by a threat actor whom purchased access to the BlackCat
 Ransomware framework via their darkweb store and very public facing webpages boasting a factor of fostering trust as malware and ransomware developers with their userbase,
