@@ -1,6 +1,6 @@
 # BlackCatScan_Prototype
 
-This is still very much a work in progress and has yet to be tested in a production environment. 
+This is still very much a work in progress but has been tested on a windows 10 home x64 environment to success. 
 The scanner was whipped up as a baseline with automation on the fly while
 investigating the existence of a BlackCat module within the HS environment.
 
