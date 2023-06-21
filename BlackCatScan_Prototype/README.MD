@@ -4,7 +4,7 @@ This is still very much a work in progress and has yet to be tested in a product
 The scanner was whipped up as a baseline with automation on the fly while
 investigating the existence of a BlackCat module within the HS environment.
 
-This is a scanner built using python to scan for blakcat signatures within a system.
+This is a scanner built using python to scan for blackcat signatures within a system.
 
 it uses a list of sigantures (one per line) titles signatures.txt and outputs a txt logfile of the files found matching and their locations on the 
 system as well as a good bit of details of the system and scan time etc.
