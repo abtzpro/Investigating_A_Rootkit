@@ -15,7 +15,7 @@ initial scan function. Creating a scan and patch style script.
 
 This could also be adapted to be used to recognize a pattern of network traffic with the known pulses and dumps of data surrounding around blackcat
 
-using the known attack flow it could aslo work alongside spot analysis and APT hunting kits. 
+using the known attack flow it could also work alongside spot analysis and APT hunting kits. 
 
 
 ## thanks to 
