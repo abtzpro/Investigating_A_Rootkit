@@ -18,6 +18,16 @@ This could also be adapted to be used to recognize a pattern of network traffic 
 using the known attack flow it could also work alongside spot analysis and APT hunting kits. 
 
 
+# A few resources explaining Blackcat
+
+https://therecord.media/an-alphv-blackcat-representative-discusses-the-groups-plans-for-a-ransomware-meta-universe
+
+https://blog.talosintelligence.com/from-blackmatter-to-blackcat-analyzing/
+
+Attack Flow -credit - Cisco Talos
+https://blog.talosintelligence.com/content/images/img/a/AVvXsEiLDZUvhJrTtFf2TSVL3LhqkvbhCw2VhpHdQLoCGP3vcjd7LWQ5_oUO7B3PUERd_Cs64snL97SAJvpJbM7DvXU9m6W3FqdX2uZ0WHtGkTBCGXVgSEaOy933I-Twgkng-u9i7Bnx7agz0FsQFEHsjWSZs5n8_BEHj9nCEIPD38Yf_yKW91mZd0_-ihWMuA-s16000.jpeg
+
+
 ## thanks to 
 
 (Thanks to @rivitna2 Andrey Zhdanov for the signature list
