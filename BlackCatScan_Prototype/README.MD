@@ -6,7 +6,7 @@ investigating the existence of a BlackCat module within the HS environment.
 
 This is a scanner built using python to scan for blackcat signatures within a system.
 
-it uses a list of sigantures (one per line) titles signatures.txt and outputs a txt logfile of the files found matching and their locations on the 
+it uses a list of signatures (one per line) titled signatures.txt and outputs a txt logfile of the files found matching and their locations on the 
 system as well as a good bit of details of the system and scan time etc.
 
 this can easily be adapted to provide the scanner user the specific variant information of BlackCat installed & 
