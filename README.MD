@@ -120,7 +120,7 @@ on each reboot the "Everyone" role as well as the current user account will be d
 permissions over this key as the current user logs on or at boot time, the ransomware/malware framework will cause a bootlop in which the winpeshl.exe file is abused to reiterate a hold over the machine
 the blackcat framework also creates new COM objects andd begins a new iteration of its install steps after each action performed by the attacker.
 
-# More IOC
+# More IOC Present in the investigated HS machine
 
 https://bleepingcomputer.com > download "hijackthis.exe" 
 - for checking startup files, hijacked DLLs etc 
@@ -212,6 +212,29 @@ revoked or invalid certificates
 Matches rule User with Privileges Logon by frack113 at Sigma Integrated Rule Set (GitHub) Detects logon with "Special groups" and "Special Privileges" can be thought of as Administrator groups or privileges. 
 OTX had no listing for SHA-256 signature 3afadd4778f94bfbbc10dceb91173299faaabe01feaca3aeb1a16b50b9aa1a1b
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Documents and Settings\defaultuser0\AppData\Local\Temporary Internet Files\Content.IE5\container.dat (android-cts-7.1_r6-linux_x86-arm.zip)
+VT scan results
+https://www.virustotal.com/gui/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+The sandbox C2AE flags this file as: STEALER
+The sandbox ReaQta-Hive flags this file as: MALWARE 
+OTX results
+https://otx.alienvault.com/indicator/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Listed as honeypot, telnet, cowrie, and ssh
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Documents and Settings\defaultuser0\AppData\Local\Temporary Internet Files\IE\container.dat (android-cts-7.1_r6-linux_x86-arm.zip)
+VT scan results
+https://www.virustotal.com/gui/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+The sandbox C2AE flags this file as: STEALER
+The sandbox ReaQta-Hive flags this file as: MALWARE
+OTX results
+https://otx.alienvault.com/indicator/file/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+listed as honeypot, telnet, cowrie, and ssh
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
