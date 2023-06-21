@@ -24,7 +24,7 @@ https://therecord.media/an-alphv-blackcat-representative-discusses-the-groups-pl
 
 https://blog.talosintelligence.com/from-blackmatter-to-blackcat-analyzing/
 
-Attack Flow -credit - Cisco Talos
+Attack Flow Infographic -credit - Cisco Talos
 https://blog.talosintelligence.com/content/images/img/a/AVvXsEiLDZUvhJrTtFf2TSVL3LhqkvbhCw2VhpHdQLoCGP3vcjd7LWQ5_oUO7B3PUERd_Cs64snL97SAJvpJbM7DvXU9m6W3FqdX2uZ0WHtGkTBCGXVgSEaOy933I-Twgkng-u9i7Bnx7agz0FsQFEHsjWSZs5n8_BEHj9nCEIPD38Yf_yKW91mZd0_-ihWMuA-s16000.jpeg
 
 
