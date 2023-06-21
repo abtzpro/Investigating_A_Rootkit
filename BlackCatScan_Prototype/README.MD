@@ -1,4 +1,4 @@
-# BlackCatDScan_Prototype
+# BlackCatScan_Prototype
 
 This is still very much a work in progress and has yet to be tested in a production environment. 
 The scanner was whipped up as a baseline with automation on the fly while
