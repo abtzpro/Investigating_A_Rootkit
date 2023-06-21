@@ -212,6 +212,9 @@ revoked or invalid certificates
 Matches rule User with Privileges Logon by frack113 at Sigma Integrated Rule Set (GitHub) Detects logon with "Special groups" and "Special Privileges" can be thought of as Administrator groups or privileges. 
 OTX had no listing for SHA-256 signature 3afadd4778f94bfbbc10dceb91173299faaabe01feaca3aeb1a16b50b9aa1a1b
 
+
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # BlackCat Signatures
