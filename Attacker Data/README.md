@@ -530,12 +530,17 @@ Power Source:     1262 samples on Battery, 4121 samples on AC
            0x1cd457000 -        0x1cd48eff7  libsystem_kernel.dylib  <2F783110-9739-3F18-A234-5FB92512529D>  /usr/lib/system/libsystem_kernel.dylib
            0x1ee2a0000 -        0x1ee2abff3  libsystem_pthread.dylib <8894310A-745F-3407-99F0-1FD54442561D>  /usr/lib/system/libsystem_pthread.dylib
 '''
+
 End of Incident report
+
 -----------------------------------------------------------------------
 
 Incident Report #3 
+
 Incident Report: Targeted Attack Resulting In Cellular Network Loss (SDM exploitation) 
+
 Subject : iphone 14 Plus project red 16.5.1 newest patch
+
 Summary:
 The following incident report outlines a potentially malicious activity related to the Service Data Management (SDM) feature in a 5G network. The logs indicate abnormal behavior and trigger events that could suggest unauthorized manipulation of SDM settings, potentially compromising network performance and user experience.
 Details:
@@ -561,7 +566,9 @@ Details:
    - Implement recommended security measures and monitor the network closely for any signs of recurrence or similar malicious activities.
    - Update incident response procedures to include mitigation strategies specific to SDM-related incidents.
 Log Snippets Attached
-	1.	Log snippet 1:
+	
+1.	Log snippet 1:
+
 '''
 softwareBuild: "20F66"
 firmwareVersion: "iBoot-8422.120.66"
@@ -570,7 +577,9 @@ buildtype: "User"
 tz_offset: -18000
 metric_file_type: 1
 '''
-	2.	Log snippet 2:
+	
+2.	Log snippet 2:
+
 '''
 metriclogs {
   triggerTime: 1687430653140
@@ -602,7 +611,9 @@ metriclogs {
   }
 }
 '''
-	3.	Log snippet 3:
+	
+3.	Log snippet 3:
+
 '''
 metriclogs {
   triggerTime: 1687430653993
@@ -635,6 +646,7 @@ metriclogs {
   }
 }
 '''
+
 End of incident report
 -----------------------------------------------------------------------
 Incident Response #4
@@ -662,7 +674,9 @@ Device : Iphone 14 plus project red 16.5.1
 	7.	Radio Link Failures and SDM Triggers:
 	•	Radio link failures were recorded, triggered by causes like T310 expiry and SCG change failure.
 	•	Potential malicious behavior: Malicious actors could intentionally trigger radio link failures or exploit existing failures to disrupt communication, degrade network performance, or launch attacks. By using T310 expiry or SCG change failure as triggers, they might attempt to create instability, induce network congestion, or exploit vulnerabilities in the SDM activation process.
+
 Log snippets supporting the above 
+
 '''
 	 SDM Activations Triggered by Various Causes:
 	•	Triggered by VOIP call:
@@ -740,6 +754,8 @@ reason: NR5G_RLF_CAUSE_T310_EXPIRY
 
 reason: NR5G_RLF_CAUSE_SCG_CHANGE_FAILURE
 '''
+
 End of incident report
+
 -----------------------------------------------------------------------
 
