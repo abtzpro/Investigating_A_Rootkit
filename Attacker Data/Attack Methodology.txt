@@ -90,3 +90,33 @@ Appropriate permissions given within the registry entry to the Everyone rule pro
 Upon resetting the network stack and networking protocols I was suddenly able to use WindowsMediaCreationToll22H2 again. 
 Thus proving the malware / bootkit / threat actor was actively using their manipulations to prevent the install of a clean windows ISO or upgrade in place. 
 At around 10:51PM CST the WindowsMediaCreationTool22H2 window closed and re-opened for a split second and the process began again. 
+
+Another interesting find under
+-HKLM\CurrentControlSet\
+there are listings for RFCOMM suggesting use of the bluetooth serial port pikely for pushing files locally, bluetooth serial, &bluetooth based control
+
+Another interesting find under
+-HKLM\CurrentControlSet\
+there are listings for FileSquirt suggesting use of FileSquirt for local network file transfer 
+
+Another interesting find under
+-HKLM\CurrentControlSet\
+there are listings for mlx4_bus associated with a mellanox connectx-4 adapter (not used on this machine)
+
+Another interesting find under
+-HKLM\CurrentControlSet\
+there are listings for mausbhosts or the Olympus MAUSB Card reader (not used on this machine)
+
+Another interesting find under
+-HKLM\CurrentControlSet\
+there are listings for LxpSvc or a Lexmark printer (not used in this network or machine) 
+
+Another interesting find under
+-HKLM\CurrentControlSet\
+there are listings for LSI_SSS suggesting the use of enterprise grade SAS controllers (not used in this setup)
+
+Another interesting find under
+-HKLM\CurrentControlSet\
+there are listings for active setups of the netvsc suggesting usage of the Hyper-V service.
+
+An interesting note: The languages observed in the malicous code found thus far contain but are not limited to: French, Italian, Russian, Japanese and Korean. However there where keyboard reservations for korean and japanese keysets. French and italian have been observed most commonly within the code.
